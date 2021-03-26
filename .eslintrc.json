@@ -1,0 +1,31 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "@nuxtjs/eslint-config-typescript",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/recommended",
+    "plugin:import/errors",
+    "prettier"
+  ],
+  "plugins": ["vue"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "extraFileExtensions": [".vue"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".css", ".scss", ".js", ".jsx", ".ts", ".vue", ".d.ts"]
+      }
+    }
+  },
+  "rules": {
+    "import/order": [2, { "alphabetize": { "order": "asc" } }]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rinkeby": {
+    "chainId": "4",
+    "rpc": "https://rinkeby.infura.io/v3/95f65ab099894076814e8526f52c9149",
+    "explore": "https://rinkeby.etherscan.io/",
+    "nozei": ""
+  },
+  "localhost": {
+    "chainId": "31337",
+    "rpc": "http://localhost:8545",
+    "explore": "https://rinkeby.etherscan.io/",
+    "chocofactory": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "nozei": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  }
+}
