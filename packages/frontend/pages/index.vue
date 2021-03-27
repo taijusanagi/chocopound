@@ -10,8 +10,6 @@
 <script lang="ts">
 import Vue from "vue";
 
-const test = "";
-
 export default Vue.extend({});
 </script>
 
